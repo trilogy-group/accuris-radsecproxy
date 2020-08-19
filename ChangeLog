@@ -1,3 +1,7 @@
+2018-09-03 1.7.2-accuris
+	Bug fixes:
+	- Fix missing RSA ciphers from Aruba client.
+
 2018-09-03 1.7.2
 	Misc:
 	- Always copy proxy-state attributes in own responses

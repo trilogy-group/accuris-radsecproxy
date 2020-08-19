@@ -2,12 +2,12 @@
 "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd">
 <refentry>
   <refentryinfo>
-    <date>2018-09-03</date>
+    <date>2020-08-19</date>
   </refentryinfo>
   <refmeta>
     <refentrytitle>radsecproxy.conf</refentrytitle>
     <manvolnum>5</manvolnum>
-    <refmiscinfo>radsecproxy 1.7.2</refmiscinfo>
+    <refmiscinfo>radsecproxy 1.7.2-accuris</refmiscinfo>
   </refmeta>
   <refnamediv>
     <refname>
