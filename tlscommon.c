@@ -416,6 +416,12 @@ static SSL_CTX *tlscreatectx(uint8_t type, struct tls *conf) {
 	return NULL;
     }
 
+    /*
+     * add this line so unsusal ciphers would work on RHEL7
+     * https://github.com/Icinga/icinga2/issues/7247
+     */
+    SSL_CTX_set_ecdh_auto(ctx, 1);
+
     debug(DBG_DBG, "tlscreatectx: created TLS context %s", conf->name);
     return ctx;
 }
